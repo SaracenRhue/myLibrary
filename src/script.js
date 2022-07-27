@@ -10,7 +10,7 @@ if (nav != null) {
   burger.addEventListener('click', () => {
     nav.classList.toggle('active');
   });
-  document.querySelector('nav img').src = "src/icons/burger.svg";
+  document.querySelector('nav img').src ='https://raw.githubusercontent.com/SaracenRhue/myLibrary/main/src/icons/burger.svg';
 }
 
 
