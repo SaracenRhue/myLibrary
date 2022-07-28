@@ -4,13 +4,13 @@ if (dynYear != null) {
 }
 
 //responsive nav toggler
-const nav = document.querySelector('nav');
-const burger = document.querySelector('nav img');
-if (nav != null && burger != null) {
+var nav = document.querySelector('nav');
+var burger = document.querySelector('nav img');
+if (nav != null) {
+  //burger.src = 'src/icons/burger.svg';
   burger.addEventListener('click', () => {
     nav.classList.toggle('active');
   });
-  document.querySelector('nav img').src ='https://raw.githubusercontent.com/SaracenRhue/myLibrary/main/src/icons/burger.svg';
 }
 
 
@@ -56,7 +56,7 @@ fetch('../index.html')
   });
 }
 
-if (nav != null) {
+if (syncNav != null) {
   syncNavFun();
 }
 
