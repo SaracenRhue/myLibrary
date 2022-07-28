@@ -55,9 +55,9 @@ fetch('../index.html')
   });
 }
 
-// if (document.querySelector('.sync-nav') != null) {
-//   syncContent('.sync-nav');
-// }
+if (document.querySelector('.sync-nav') != null) {
+  syncContent('.sync-nav');
+}
 if (document.querySelector('.sync-footer') != null) {
   syncContent('.sync-footer');
 }

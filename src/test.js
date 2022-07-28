@@ -1,1 +1,0 @@
-syncContent('.sync-nav');
