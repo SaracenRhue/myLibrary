@@ -14,7 +14,7 @@ if (nav != null && burger != null) {
 }
 
 
-const gallery = document.querySelector('.gallery');
+var gallery = document.querySelector('.gallery');
 function generate(path) {
   const count = Number(gallery.classList[1]) + 1;
   let imgs = [];
@@ -29,8 +29,7 @@ function generate(path) {
 }
 
 
-const syncNav = document.querySelector('.sync-nav');
-function syncNavFun() {
+function syncContent(syncClass) {
 fetch('../index.html')
   .then(function (response) {
     // When the page is loaded convert it to text
@@ -49,15 +48,18 @@ fetch('../index.html')
 
     //console.log(doc);
 
-    syncNav.innerHTML = doc.querySelector('.sync-nav').innerHTML
+    document.querySelector(syncClass).innerHTML = doc.querySelector(syncClass).innerHTML
   })
   .catch(function (err) {
     console.log('Failed to fetch page: ', err);
   });
 }
 
-if (syncNav != null) {
-  syncNavFun();
+// if (document.querySelector('.sync-nav') != null) {
+//   syncContent('.sync-nav');
+// }
+if (document.querySelector('.sync-footer') != null) {
+  syncContent('.sync-footer');
 }
 
 if (gallery != null) {
