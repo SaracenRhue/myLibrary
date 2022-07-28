@@ -6,7 +6,7 @@ if (dynYear != null) {
 //responsive nav toggler
 var nav = document.querySelector('nav');
 var burger = document.querySelector('nav img');
-if (nav != null) {
+if (nav != null && burger != null) {
   //burger.src = 'src/icons/burger.svg';
   burger.addEventListener('click', () => {
     nav.classList.toggle('active');
