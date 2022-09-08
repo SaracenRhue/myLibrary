@@ -660,6 +660,7 @@ nav img {
 div[class*="container"] {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 @media screen and (max-width: 400px) {
   div[class*="container"] {
