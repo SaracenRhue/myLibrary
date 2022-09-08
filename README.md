@@ -60,6 +60,8 @@
 
 ### Dynamic footer
 
+automaticly displays the current year
+
 ```html
     <footer>
         <p>Saracen Rhue <span id="year"></span></p>
