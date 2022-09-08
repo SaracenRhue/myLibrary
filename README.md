@@ -1,5 +1,7 @@
 # myLibrary
 
+my personal css / js library
+
 ## Installation
 
 ```html
