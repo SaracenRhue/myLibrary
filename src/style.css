@@ -32,6 +32,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 /* html {
   scrollbar-color: #040a0f #202b38;
@@ -52,7 +53,6 @@ body {
   background: #202b38;
   background: var(--background-body);
   text-rendering: optimizeLegibility;
-  overflow-x: hidden;
 }
 button,
 input,
