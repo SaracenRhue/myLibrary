@@ -41,3 +41,27 @@
   --footer-text: #a9a9a9;
   }
 ```
+
+## Features
+
+### Responsiv navbar
+
+```html
+    <nav>
+        <ul>
+            <li><a href="#item 0">item 0</a></li>
+            <li><a href="#item 1">item 1</a></li>
+            <li><a href="#item 2">item 2</a></li>
+            <li><a href="#item 3">item 3</a></li>
+        </ul>
+        <img src="https://raw.githubusercontent.com/SaracenRhue/myLibrary/main/src/icons/burger.svg" alt="#" />
+    </nav>
+```
+
+### Dynamic footer
+
+```html
+    <footer>
+        <p>Saracen Rhue <span id="year"></span></p>
+    </footer>
+```
