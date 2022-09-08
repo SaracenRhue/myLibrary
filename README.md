@@ -67,3 +67,20 @@ automaticly displays the current year
         <p>Saracen Rhue <span id="year"></span></p>
     </footer>
 ```
+
+### flex-container class
+
+makes contents responsive
+
+```css
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 400px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+```
