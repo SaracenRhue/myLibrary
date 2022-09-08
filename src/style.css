@@ -657,6 +657,15 @@ nav img {
 }
 
 
+div[class*="container"] {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 400px) {
+  div[class*="container"] {
+    flex-direction: column;
+  }
+}
 
 /* @media (prefers-color-scheme: light) {
   .gallery img {
