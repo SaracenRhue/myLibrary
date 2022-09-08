@@ -1,6 +1,6 @@
 # myLibrary
 
-## put this in the <head>
+## put this in the head
 
 ```html
 <link rel="stylesheet" href="https://saracenrhue.github.io/myLibrary/src/style.css"/>
