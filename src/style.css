@@ -52,6 +52,7 @@ body {
   background: #202b38;
   background: var(--background-body);
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 button,
 input,
