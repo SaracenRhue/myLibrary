@@ -34,11 +34,13 @@
   padding: 0;
   overflow-x: hidden;
 }
-/* html {
-  scrollbar-color: #040a0f #202b38;
+
+html {
+  /* scrollbar-color: #040a0f #202b38; */
   scrollbar-color: var(--scrollbar-thumb) var(--background-body);
-  scrollbar-width: thin;
-} */
+  scrollbar-width: var(--scrollbar-width);
+}
+
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
