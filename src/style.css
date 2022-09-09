@@ -16,6 +16,7 @@
   --scrollbar-color: #040a0f #202b38;
   --scrollbar-thumb: var(--button-hover);
   --scrollbar-thumb-hover: rgb(121, 121, 121);
+  --scrollbar-width: 'thin';
   --form-placeholder: #a9a9a9;
   --form-text: #fff;
   --variable: #d941e2;
