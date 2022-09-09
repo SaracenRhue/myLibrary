@@ -13,6 +13,7 @@
   --animation-duration: 0.1s;
   --button-base: #0c151c;
   --button-hover: #040a0f;
+  --scrollbar-color: #040a0f #202b38;
   --scrollbar-thumb: var(--button-hover);
   --scrollbar-thumb-hover: rgb(121, 121, 121);
   --form-placeholder: #a9a9a9;
@@ -36,8 +37,7 @@
 }
 
 html {
-  /* scrollbar-color: #040a0f #202b38; */
-  scrollbar-color: var(--scrollbar-thumb) var(--background-body);
+  scrollbar-color: var(--scrollbar-color);
   scrollbar-width: var(--scrollbar-width);
 }
 
