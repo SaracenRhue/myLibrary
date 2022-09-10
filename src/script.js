@@ -85,4 +85,15 @@ function gNav(sections) {
   });
 };
 
+
+function multi_language() {
+   let userLang = navigator.language || navigator.userLanguage;
+   if (
+     userLang.includes('de') &&
+     window.location.href.includes('index_de.html') == false
+   ) {
+     window.location.href = 'index_de.html';
+   } 
+}
+
 //gNav(['Home', 'About', 'Gallery', 'Contact']);
