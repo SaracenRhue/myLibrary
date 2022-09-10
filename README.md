@@ -14,7 +14,7 @@ unlike bootstrap or tailwind, you can use CSS variables to customize the style s
 
 ```css
 :root {
-  --background-body: rgb(0, 0, 0);
+  --background-body: rgb(65, 65, 65);
   --background: rgb(23, 31, 38);
   --background-alt: #1a242f;
   --selection: #1c76c5;
@@ -28,8 +28,10 @@ unlike bootstrap or tailwind, you can use CSS variables to customize the style s
   --animation-duration: 0.1s;
   --button-base: #0c151c;
   --button-hover: #040a0f;
+  --scrollbar-color: #040a0f #202b38;
   --scrollbar-thumb: var(--button-hover);
   --scrollbar-thumb-hover: rgb(121, 121, 121);
+  --scrollbar-width: 'thin';
   --form-placeholder: #a9a9a9;
   --form-text: #fff;
   --variable: #d941e2;
@@ -42,7 +44,7 @@ unlike bootstrap or tailwind, you can use CSS variables to customize the style s
   --dark-box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   --footer-background: #0c151c;
   --footer-text: #a9a9a9;
-  }
+}
 ```
 
 ## Features
