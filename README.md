@@ -1,6 +1,7 @@
 # myLibrary
 
 my personal css / js library
+unlike bootstrap or tailwind, you can use CSS variables to customize the style so that your code stays clean and simple and does not get overloaded with classes.
 
 ## Installation
 
