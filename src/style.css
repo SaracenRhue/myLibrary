@@ -14,8 +14,6 @@
   --button-base: #0c151c;
   --button-hover: #040a0f;
   --scrollbar-color: #040a0f #202b38;
-  --scrollbar-thumb: var(--button-hover);
-  --scrollbar-thumb-hover: rgb(121, 121, 121);
   --scrollbar-width: 'thin';
   --form-placeholder: #a9a9a9;
   --form-text: #fff;
@@ -47,9 +45,6 @@ body {
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     Segoe UI Emoji, Apple Color Emoji, Noto Color Emoji, sans-serif;
   line-height: 1.4;
-  /* max-width: 800px; */
-  /* margin: 20px auto; */
-  /* padding: 0 10px; */
   word-wrap: break-word;
   color: #dbdbdb;
   color: var(--text-main);
@@ -385,6 +380,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 code,
 samp,
@@ -598,7 +594,6 @@ nav a {
 }
 nav a:hover {
   color: var(--navlink-hover);
-  cursor: pointer;
 }
 
 nav img {
@@ -670,9 +665,3 @@ nav img {
     flex-direction: column;
   }
 }
-
-/* @media (prefers-color-scheme: light) {
-  .gallery img {
-    box-shadow: var(--dark-box-shadow);
-  }
-} */
