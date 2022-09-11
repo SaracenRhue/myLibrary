@@ -96,4 +96,8 @@ function multi_language() {
    } 
 }
 
+if (window.location.href.includes('.html') == false) {
+  window.location.href += 'index.html';
+}
+
 //gNav(['Home', 'About', 'Gallery', 'Contact']);
